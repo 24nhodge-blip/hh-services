@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H&H Services | Quality in All Four Seasons</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #eef6fb;
+      color: #1f2933;
+    }
+    header {
+      background: linear-gradient(135deg, #3b82f6, #1e40af);
+      color: #fff;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto 1.5rem;
+    }
+    .cta {
+      display: inline-block;
+      background: #2563eb;
+      color: #eff6ff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .hero-img {
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      border-radius: 16px;
+      margin-top: 2rem;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 0.75rem;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #1e40af;
+    }
+    .why {
+      background: #e0f2fe;
+      border-radius: 12px;
+    }
+    footer {
+      background: #1e3a8a;
+      color: #e0f2fe;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    footer a {
+      color: #93c5fd;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <nav style="position:sticky;top:0;z-index:1000;background:#ffffff;box-shadow:0 4px 12px rgba(0,0,0,0.08);">
+    <div style="max-width:1100px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:0.75rem 1rem;">
+      <strong style="color:#1e40af;">H&H Services</strong>
+      <div>
+        <a href="#services" style="margin-right:1rem;color:#1e40af;text-decoration:none;">Services</a>
+        <a href="#quote" style="margin-right:1rem;color:#1e40af;text-decoration:none;">Free Quote</a>
+        <a href="#detailing" style="margin-right:1rem;color:#1e40af;text-decoration:none;">Auto Detailing</a>
+        <a href="tel:14195038345" class="cta">Call</a>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <h1>H&H Services</h1>
+    <p><em>Quality in all four seasons</em></p>
+    <p>Reliable outdoor and property services you can count on. Clean, professional, and done right the first time.</p>
+    <p><strong>Weekly routes available</strong> — perfect for routine maintenance and neighborhood scheduling.</p>
+    <a class="cta" href="tel:14195038345">Call Now: (419) 503‑8345</a>
+    <img class="hero-img" src="https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1600&q=80" alt="Freshly cleaned yard" />
+  </header>
+
+  <section id="services">
+    <h2>Our Core Services</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&q=80" alt="Yard cleanup service" />
+        <h3>Yard Cleanup</h3>
+        <p>Seasonal and one‑time cleanups to keep your property looking sharp and maintained.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1598514982845-47bff1dc8f88?auto=format&fit=crop&w=800&q=80" alt="Lawn maintenance" />
+        <h3>Lawn & Property Maintenance</h3>
+        <p>Routine maintenance for homeowners, landlords, and small commercial properties.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600369671236-e74521d4b4ad?auto=format&fit=crop&w=800&q=80" alt="Power washer in use" />
+        <h3>Power Washing</h3>
+        <p>Driveways, decks, siding, and more — restore curb appeal fast.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Rental property cleanup" />
+        <h3>Move‑Out / Rental Cleanups</h3>
+        <p>Perfect for landlords and property managers who need fast turnarounds.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="quote">
+    <h2>Get a Free Quote</h2>
+    <p style="text-align:center;max-width:700px;margin:0 auto 2rem;">Weekly routes keep costs lower and scheduling reliable. Garden work is performed on <strong>designated service days</strong> for efficiency.</p>
+    <form style="max-width:600px;margin:auto;background:#fff;padding:2rem;border-radius:12px;box-shadow:0 10px 25px rgba(0,0,0,0.08);">
+      <label>Preferred Service Type<br>
+        <select style="width:100%;padding:0.5rem;margin-bottom:1rem;">
+          <option>Weekly Maintenance</option>
+          <option>Bi-Weekly Maintenance</option>
+          <option>One-Time Service</option>
+          <option>Garden Work (scheduled days)</option>
+        </select>
+      </label>
+      <label>
+        <input type="checkbox" /> I have neighbors interested (neighborhood discount)
+      </label><br><br>
+      <label>Name<br><input type="text" style="width:100%;padding:0.5rem;margin-bottom:1rem;"></label>
+      <label>Phone<br><input type="tel" style="width:100%;padding:0.5rem;margin-bottom:1rem;"></label>
+      <label>Email<br><input type="email" style="width:100%;padding:0.5rem;margin-bottom:1rem;"></label>
+      <label>Service Details<br><textarea style="width:100%;padding:0.5rem;margin-bottom:1rem;"></textarea></label>
+      <button type="submit" class="cta">Request Free Quote</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Available Discounts</h2>
+    <p><strong>We offer rotating discounts throughout the year.</strong> Ask about current savings when you request a quote.</p>
+    <ul>
+      <li><strong>Same‑Neighborhood Discount:</strong> Reduced pricing when multiple homes on the same street are scheduled together.</li>
+      <li><strong>Repeat Customer Savings:</strong> Loyalty discounts for returning customers.</li>
+      <li><strong>Bundle Discounts:</strong> Save more when combining multiple services.</li>
+    </ul>
+    <p style="font-size:0.9rem;opacity:0.8;">Additional seasonal and referral discounts may be available but are not always advertised.</p>
+  </section>
+
+  <section class="why">
+    <h2>Why Choose H&H?</h2>
+    <ul>
+      <li>Locally owned & operated</li>
+      <li>Fair, upfront pricing</li>
+      <li>Reliable scheduling</li>
+      <li>Detail‑oriented work</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> <a href="tel:14195038345">(419) 503‑8345</a></p>
+    <p><strong>Email:</strong> <a href="mailto:24nhodge@gmail.com">24nhodge@gmail.com</a></p>
+    <p>Call or email today for a quick quote — we respond fast.</p>
+  </section>
+
+  <section id="detailing">
+    <p style="text-align:center;font-size:0.95rem;opacity:0.85;">Auto detailing is scheduled on specific days to maintain quality and efficiency.</p>
+    <h2>H&H Auto Detailing</h2>
+    <p>Professional interior and exterior detailing to keep your vehicle looking showroom‑ready year‑round.</p>
+    <div class="services">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=800&q=80" alt="Car detailing interior" />
+        <h3>Interior Detailing</h3>
+        <p>Deep cleaning of seats, carpets, panels, and trim.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9?auto=format&fit=crop&w=800&q=80" alt="Car exterior wash" />
+        <h3>Exterior Detailing</h3>
+        <p>Hand wash, wax, tire shine, and paint protection.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>About Us</h2>
+    <p>H&H Services is based out of Oak Harbor, Ohio, but we are willing to travel to surrounding cities to provide high-quality yard, garden, and auto detailing services. Our goal is to offer reliable, professional, and consistent service no matter where you are.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 H&H Services</p>
+    <p>Call <a href="tel:14195038345">(419) 503‑8345</a> | Email <a href="mailto:24nhodge@gmail.com">24nhodge@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
